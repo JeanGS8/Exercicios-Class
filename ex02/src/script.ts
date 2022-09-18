@@ -27,7 +27,7 @@ class Aviao{
 
 const modelo: String = prompt('Digite o modelo do avião: ');
 const fabricante: String = prompt('Digite o fabricante do avião: ');
-const qtdPassageiros: Number = Number(prompt('Digite quantas passageiros estão no avião: '));
+const qtdPassageiros: Number = Number(prompt('Digite quantos passageiros estão no avião: '));
 
 const aviao: Aviao = new Aviao(modelo, fabricante, qtdPassageiros);
 

@@ -20,7 +20,7 @@ var Aviao = /** @class */ (function () {
 }());
 var modelo = prompt('Digite o modelo do avião: ');
 var fabricante = prompt('Digite o fabricante do avião: ');
-var qtdPassageiros = Number(prompt('Digite quantas passageiros estão no avião: '));
+var qtdPassageiros = Number(prompt('Digite quantos passageiros estão no avião: '));
 var aviao = new Aviao(modelo, fabricante, qtdPassageiros);
 console.log("O modelo do avi\u00E3o \u00E9: ".concat(aviao.getModelo()));
 document.write("O modelo do avi\u00E3o \u00E9: ".concat(aviao.getModelo()));
