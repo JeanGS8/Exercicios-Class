@@ -1,33 +1,33 @@
 class Aviao{
-   private modelo: String;
-   private fabricante: String;
-   private qtdPassageiros: Number;
+   private modelo: string;
+   private fabricante: string;
+   private qtdPassageiros: number;
 
-   constructor(modelo: String, fabricante: String, qtdPassageiros: Number){
+   constructor(modelo: string, fabricante: string, qtdPassageiros: number){
       this.modelo = modelo;
       this.fabricante = fabricante;
       this.qtdPassageiros = qtdPassageiros;
    }
 
    // MODELO
-   public getModelo(): String{
+   public getModelo(): string{
       return this.modelo;
    }
 
    // FABRICANTE
-   public getFabricante(): String{
+   public getFabricante(): string{
       return this.fabricante;
    }
 
    // PASSAGEIROS
-   public getPassageiros(): Number{
+   public getPassageiros(): number{
       return this.qtdPassageiros;
    }
 }
 
-const modelo: String = prompt('Digite o modelo do avião: ');
-const fabricante: String = prompt('Digite o fabricante do avião: ');
-const qtdPassageiros: Number = Number(prompt('Digite quantos passageiros estão no avião: '));
+const modelo: string = prompt('Digite o modelo do avião: ');
+const fabricante: string = prompt('Digite o fabricante do avião: ');
+const qtdPassageiros: number = Number(prompt('Digite quantos passageiros estão no avião: '));
 
 const aviao: Aviao = new Aviao(modelo, fabricante, qtdPassageiros);
 

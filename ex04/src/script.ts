@@ -1,10 +1,10 @@
 class Funcionario{
-   private nome: String;
-   private empresa: String;
-   private funcao: String;
-   private salario: Number;
+   private nome: string;
+   private empresa: string;
+   private funcao: string;
+   private salario: number;
 
-   constructor(nome: String, empresa: String, funcao: String, salario: Number){
+   constructor(nome: string, empresa: string, funcao: string, salario: number){
       this.nome = nome;
       this.empresa = empresa;
       this.funcao = funcao;
@@ -12,22 +12,22 @@ class Funcionario{
    }
 
    // NOME
-   public getNome(): String{
+   public getNome(): string{
       return this.nome;
    }
 
    // EMPRESA
-   public getEmpresa(): String{
+   public getEmpresa(): string{
       return this.empresa;
    }
 
    // FUNCAO
-   public getFuncao(): String{
+   public getFuncao(): string{
       return this.funcao;
    }
 
    // SALARIO
-   public getSalario(): Number{
+   public getSalario(): number{
       return this.salario;
    }
 }

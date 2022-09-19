@@ -1,25 +1,25 @@
 class ProdutoEletronico{
-   private nome: String;
-   private preco: Number;
+   private nome: string;
+   private preco: number;
 
-   constructor(nome: String, preco: Number){
+   constructor(nome: string, preco: number){
       this.nome = nome;
       this.preco = preco;
    }
 
    // NOME
-   public getNome(): String{
+   public getNome(): string{
       return this.nome;
    }
 
    // PREÇO
-   public getPreco(): Number{
+   public getPreco(): number{
       return this.preco;
    }
 }
 
-const nome: String = prompt('Digite o nome do produto: ');
-const preco: Number = Number(prompt('Digite o preço do produto: '));
+const nome: string = prompt('Digite o nome do produto: ');
+const preco: number = Number(prompt('Digite o preço do produto: '));
 
 const produto: ProdutoEletronico = new ProdutoEletronico(nome, preco);
 
